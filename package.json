@@ -1,0 +1,39 @@
+{
+  "name": "apache-password-manager",
+  "version": "0.0.1",
+  "description": "Basic CLI utility for managing a .htpasswd file",
+  "main": "index.js",
+  "bin": {
+    "htpasswd-manager": "./bin/htpasswd-manager.js"
+  },
+  "scripts": {
+    "test": "node ./bin/apache-password-manager.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeftAndRight/apache-password-manager.git"
+  },
+  "keywords": [
+    "htaccess",
+    "apache",
+    "passwords",
+    "authentication"
+  ],
+  "author": "Jonathan Beech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeftAndRight/apache-password-manager/issues"
+  },
+  "homepage": "https://github.com/LeftAndRight/apache-password-manager#readme",
+  "dependencies": {
+    "apache-md5": "^1.1.2",
+    "inquirer": "^3.1.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "0.0.35",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^8.0.0",
+    "typescript": "^2.3.4"
+  }
+}
